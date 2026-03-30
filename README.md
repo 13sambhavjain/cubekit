@@ -1,3 +1,4 @@
+[![PyPI version](https://img.shields.io/pypi/v/cubekit.svg)](https://pypi.org/project/cubekit/)
 # cubekit
 
 A modular Python toolkit for cube simulation and human-style solving workflows.
