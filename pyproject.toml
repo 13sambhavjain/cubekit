@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cubekit"
+version = "0.0.1"
+description = "Modular toolkit for human-style Rubik's Cube solving and cube simulation"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+
+keywords = [
+    "rubiks",
+    "cube",
+    "solver",
+    "cfop",
+    "cube-solver",
+    "human-style"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Games/Entertainment :: Puzzle Games",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+]
+
+[project.urls]
+Homepage = "https://github.com/13sambhavjain/cubekit"
+Issues = "https://github.com/13sambhavjain/cubekit/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["cubekit"]
+
+include = [
+    "cubekit/py.typed"
+]
